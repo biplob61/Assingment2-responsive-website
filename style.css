@@ -1,0 +1,32 @@
+.top-banner-background{
+    background-color: #f8f9fa;
+}
+.price{
+    color: #FA804C;
+}.shopping-logo{
+    width: 30px;
+}
+.card-footer-updating{
+    background-color: #FFFFFF;
+    border: 0px;
+}
+.card-border{
+    border: 0px;
+}
+.Product-shadow{
+    box-shadow: silver;
+    border-radius: 30px;
+    background-color: #FFF9F4;
+}
+@include media-breakpoint-down(lg){
+    width: 1000px;
+}
+@include media-breakpoint-down(md){
+    width: 400px;
+    
+    }
+}
+@include media-breakpoint-down(sm){
+    width: 200px;
+
+}
